@@ -2,9 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import Home from './views/Home.vue'
 import Doc from './views/Doc.vue'
-import Frank from './components/Frank.vue'
-import Frank2 from './components/Frank2.vue'
-import './index.css'
+// import Frank from './components/Frank.vue'
+// import Frank2 from './components/Frank2.vue'
+import './index.scss'
 import { createWebHashHistory, createRouter } from 'vue-router'
 
 const history = createWebHashHistory()
