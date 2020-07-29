@@ -2,13 +2,13 @@
   <router-view/>
 </template>
 
-<script>
-import Frank from './components/Frank.vue'
+<script lang="ts">
+import { ref } from 'vue'
 
 export default {
   name: 'App',
-  components: {
-    Frank
+  setup(){
+    const menuVisible = ref(false)
   }
 }
 </script>
